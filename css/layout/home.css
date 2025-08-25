@@ -1,0 +1,383 @@
+#home {
+    background: #181818;
+    padding-top: 95px;
+    padding-bottom: 35px;
+}
+
+.home-infos {
+    text-align: center;
+}
+
+.home-infos__page {
+    color: #FFFFFF;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.home-infos__description {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 90px;
+}
+
+.home-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.home-btn__first {
+    border: 1px solid white;
+    width: 150px;
+    padding: 25px;
+    background: #181818;
+}
+
+.home-btn__first:hover {
+    border: 1px solid white;
+    width: 150px;
+    padding: 25px;
+    background: #4452FE;
+}
+
+.home-btn__first__p {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+
+
+
+
+#hero {
+    background: #181818;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img img {
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+
+
+#about {
+    background-color: #181818;
+    padding-top: 150px;
+}
+
+.about-infos {
+    text-align: center;
+}
+
+.about-infos__page {
+    color: #FFFFFF;
+    font-size: 52px;
+}
+
+.about-infos__description {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.about-card1 img {
+    max-width: 700px;
+    width: 100%;
+}
+
+.about-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about-card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-card2__1__image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-card2__1__image h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.1px;
+}
+
+.about-card2__1__info p {
+    color: #8895AA;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-bottom: 10px;
+}
+
+
+
+
+#contents {
+    background-color: #181818;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.contents-infos {
+    text-align: center;
+}
+
+.contents-infos__page {
+    color: #FFFFFF;
+    font-size: 52px;
+    padding-bottom: 10px;
+}
+
+.contents-infos__description {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.contents-cards {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contents-cards__card1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    background-color: white;
+}
+
+.contents-cards__card1__page {
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contents-cards__card1__description {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: #5C5C5C;
+    font-size: 16px
+}
+
+.contents-cards__card1__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contents-cards__card1__btn {
+    border: 1px solid #4452FE;
+    width: 150px;
+    padding: 16px;
+    background-color: #4452FE;
+}
+
+.btnn {
+    color: white;
+}
+
+.contents-cards__card1__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents-cards__card1__img img {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.contents-cards__card2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    background-color: white;
+}
+
+.contents-cards__card2__page {
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contents-cards__card2__description {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #5C5C5C;
+    font-size: 16px
+}
+
+.contents-cards__card2__btn {
+    border: 1px solid #4452FE;
+    width: 150px;
+    padding: 16px;
+    background-color: #4452FE;
+}
+
+.contents-cards__card2__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contents-cards__card2__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents-cards__card2__img img {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+
+
+#gallery {
+    background-color: #181818;
+}
+
+.gallery-infos__page {
+    color: #FFFFFF;
+    font-size: 52px;
+    text-align: center;
+}
+
+.gallery-infos__description {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.gallery-images {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.gallery-image {
+    border-radius: 10px;
+}
+
+.gallery-images2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.gallery-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.gallery-btn{
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+}
+.gallery-btn__btn{
+    color: white;
+}
+
+#partners{
+    background-color: #181818;
+
+}
+.partners-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 70px;
+}
+.partners-page{
+    color: white;
+    font-size: 52px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.partners-description{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+#testimonial{
+    background-color: #181818;
+}
+.testimonial-page{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 52px;
+    padding-top: 50px;
+}
+.testimonial-cards{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.img img{
+    width: 1000px;
+    height: 400px;
+}
+.testimonial-card1{
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+.testimonial-card1__image{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+.testimonial-card1__image{
+    color: white;
+}
+.testimonial-card1__info{
+    color: #8895AA;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-bottom: 40px;
+}

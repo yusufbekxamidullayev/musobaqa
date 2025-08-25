@@ -1,0 +1,40 @@
+header{
+    background-color: #181818;
+    padding-top: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-menu__description{
+    color: white;
+}
+.navbar-menu__description:hover{
+    color: silver;
+    text-decoration: underline;
+}
+
+.navbar-btn{
+    border: 1px solid white;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.navbar-btn:hover{
+    background-color: white;
+}
+
+.navbar-btn__info{
+    color: white;
+}
+.navbar-btn__info:hover{
+    color: black;
+}
